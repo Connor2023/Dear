@@ -14,7 +14,7 @@ const InstructionsModal: React.FC<{}> = () => {
               <>
                 <ModalHeader className="bg-slate-700 text-white flex flex-col gap-1">Instructions</ModalHeader>
                 <ModalBody className="bg-slate-700 text-white pb-4">
-                  <p>Choose (by ticking the respective box) 1 or 2 from the top row and any you'd like from the bottom row.</p>
+                  <p>Choose (by ticking the respective box) 1 or 2 from the top four choices (Food) and any you'd like from the bottom five choices (Gifts/Activities).</p>
                   <p>Send a screenshot of your response to me on Snapchat.</p>
                   <p>Be ready at 9am on Wednesday.</p>
                   <p>Things to bring: yourself and gratitude</p>
