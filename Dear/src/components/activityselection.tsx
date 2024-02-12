@@ -3,7 +3,7 @@ import SelectionItem from "./selectionitem";
 
 const ActivitySelection: React.FC<{}> = () => {
     return (
-        <div className="flex flex-row w-full gap-10 justify-center mt-4">
+        <div className="flex flex-row flex-wrap w-full gap-10 justify-center mt-4">
             <SelectionItem subject="Brandy" imageUrl = "https://au.brandymelville.com/cdn/shop/files/MW931A-58S0020000_0.jpg?v=1692318216"
             subjectTitle="Brandy Melville" subjectDetail="We go browse and buy 'sth' from South Yarra"
             subjectUrl="https://au.brandymelville.com/"/>

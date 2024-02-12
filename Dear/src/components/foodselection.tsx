@@ -3,7 +3,7 @@ import SelectionItem from "./selectionitem";
 
 const FoodSelection: React.FC<{}> = () => {
     return (
-        <div className="flex flex-row w-full gap-10 justify-center mt-4">
+        <div className="flex flex-row flex-wrap w-full gap-10 justify-center mt-4">
             <SelectionItem subject="Banh Mi" imageUrl = "https://lh3.googleusercontent.com/p/AF1QipMAzVT9jjulXkYn2z91YRdAIuusloHOsRiBVSvC=s680-w680-h510"
             subjectTitle="Tabac Bakery" subjectDetail="4.6/5 - Banh Mi Restaurant in Springvale"
             subjectUrl="https://www.google.com/maps/place/Tabac+Bakery/@-37.9526613,145.1494373,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad614b8f3e4a2fb:0x7bab0ace1bba592d!8m2!3d-37.9526613!4d145.1520122!16s%2Fg%2F1q5hrncrr?hl=en-GB&entry=ttu"/>
